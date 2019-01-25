@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import dcTest from './components/dc-test';
+import DcTest from './components/dc-test';
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
         <h1>Git Test Repo</h1>
 
         <nav>Super Sweet Nav Bar</nav>
+        <DcTest />
       <footer>
           <p>
           This is a big ol foot!
