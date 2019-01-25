@@ -7,6 +7,15 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Git Test Repo</h1>
+
+
+        <footer>
+          <p>
+          This is a big ol foot!
+          <span>Copyright test</span>
+          </p>
+        </footer>
+
       </div>
     );
   }
