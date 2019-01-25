@@ -8,8 +8,8 @@ class App extends Component {
       <div className="App">
         <h1>Git Test Repo</h1>
 
-
-        <footer>
+        <nav>Super Sweet Nav Bar</nav>
+      <footer>
           <p>
           This is a big ol foot!
           <span>Copyright test</span>
