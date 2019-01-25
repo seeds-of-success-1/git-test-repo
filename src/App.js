@@ -2,8 +2,20 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import dcTest from './components/dc-test';
+import axios from 'axios'
 
 class App extends Component {
+  state={
+    pic:''
+  }
+
+  componentDidMount(){
+    this.fetchDog()
+  }
+  async fetchDog(){
+    let res = await axios.get('https://dog.ceo/api/breeds/image/random');
+    this.setState({pic:res.data})
+  }
   render() {
     return (
       <div className="App">
