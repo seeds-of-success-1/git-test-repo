@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1>Git Test Repo</h1>
+        <nav>Super Sweet Nav Bar</nav>
       </div>
     );
   }
