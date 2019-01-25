@@ -10,7 +10,15 @@ class App extends Component {
         <h1>Git Testing Repo</h1>
 
         <h1>Git Test Repo</h1>
+
         <nav>Super Sweet Nav Bar</nav>
+      <footer>
+          <p>
+          This is a big ol foot!
+          <span>Copyright test</span>
+          </p>
+        </footer>
+
       </div>
     );
   }
